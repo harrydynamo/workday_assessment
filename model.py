@@ -1,7 +1,6 @@
 import json
 # import requests # type: ignore
 from datetime import datetime
-import Constants
 
 class Candidate:
 
@@ -34,18 +33,18 @@ class Model:
         self.path = path
         self.candidates = []
 
-    def fetch_data_from_url(self, url):
-        # try:
-        response = requests.get(url)
+    # def fetch_data_from_url(self, url):
+    #     # try:
+    #     response = requests.get(url)
 
-        if response.status_code == 200:
-            json_data = response.json()
+    #     if response.status_code == 200:
+    #         json_data = response.json()
 
-            # Save the JSON data to a file
-            with open(Constants.data_dir_path+'/data.json', 'w') as file:
-                json.dump(json_data, file, indent=4)
+    #         # Save the JSON data to a file
+    #         with open(Constants.data_dir_path+'/data.json', 'w') as file:
+    #             json.dump(json_data, file, indent=4)
 
-        return response.status_code
+    #     return response.status_code
                 
         # except Exception:
         #     print('Internet Connection Error')
@@ -58,7 +57,7 @@ class Model:
             self.parse_data(data)
         except FileNotFoundError:
             print('data.json file does not exist.')
-            url = Constants.url
+            # url = Constants.url
 
             # response = self.fetch_data_from_url(url)
             # if (response == 200):
@@ -66,7 +65,7 @@ class Model:
                 # self.fetch_data()
             # else:
             #   print(f"Failed to fetch data. HTTP Status code: {response}")
-            print(Constants.divider)
+            # print(Constants.divider)
 
     def parse_data(self, data):
         for candidate_data in data:
