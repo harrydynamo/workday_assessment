@@ -1,5 +1,5 @@
 import json
-import requests # type: ignore
+# import requests # type: ignore
 from datetime import datetime
 import Constants
 
@@ -57,15 +57,15 @@ class Model:
                 data = json.load(f)
             self.parse_data(data)
         except FileNotFoundError:
-            print('data.json file does not exist.\nFetching from url and saving in local directory')
+            print('data.json file does not exist.')
             url = Constants.url
 
-            response = self.fetch_data_from_url(url)
-            if (response == 200):
-                print(f"JSON data has been saved to {Constants.data_dir_path + '/data.json'}")
-                self.fetch_data()
-            else:
-                print(f"Failed to fetch data. HTTP Status code: {response}")
+            # response = self.fetch_data_from_url(url)
+            # if (response == 200):
+                # print(f"JSON data has been saved to {Constants.data_dir_path + '/data.json'}")
+                # self.fetch_data()
+            # else:
+            #   print(f"Failed to fetch data. HTTP Status code: {response}")
             print(Constants.divider)
 
     def parse_data(self, data):
