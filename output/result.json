@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Clark L Kent",
+        "work_experience": [
+            {
+                "role": "Staff Accountant",
+                "start_date": "2008-01-01",
+                "end_date": "2008-12-31",
+                "location": "Agrabah, GM, US"
+            },
+            {
+                "role": "C.O.A.'s",
+                "start_date": "2007-01-01",
+                "end_date": "2007-12-31",
+                "location": "Agrabah, GM, US"
+            },
+            {
+                "role": "Wax Preparer",
+                "start_date": "2006-01-01",
+                "end_date": "2006-12-31",
+                "location": "Agrabah, GM, US",
+                "gap": "366 days"
+            },
+            {
+                "role": "Staff Accountant",
+                "start_date": "2004-01-01",
+                "end_date": "2004-12-31",
+                "location": "New York, NY, US"
+            },
+            {
+                "role": "C.O.A.'s",
+                "start_date": "2003-01-01",
+                "end_date": "2003-12-31",
+                "location": "Agrabah, GM, US"
+            },
+            {
+                "role": "Jigglypuff & Company, C.P.A",
+                "start_date": "2002-01-01",
+                "end_date": "2002-12-31",
+                "location": "Pasadena, AA, US"
+            },
+            {
+                "role": "Staff Accountant",
+                "start_date": "1999-01-01",
+                "end_date": "2002-01-01",
+                "location": "Pasadena, AA, US"
+            },
+            {
+                "role": "Staff Accountant",
+                "start_date": "1976-01-01",
+                "end_date": "1998-12-31",
+                "location": "New York, NY, US"
+            }
+        ]
+    },
+    {
+        "name": "Bruce Wayne",
+        "work_experience": [
+            {
+                "role": "Staff Accountant, HHH Coordinator",
+                "start_date": "2014-01-01",
+                "end_date": "2016-07-12",
+                "location": "Batmandria, VA, US"
+            },
+            {
+                "role": "Assistant Controller/Staff Accountant",
+                "start_date": "2013-05-06",
+                "end_date": "2014-01-01",
+                "location": "Gotham City, GM, US",
+                "gap": "125 days"
+            },
+            {
+                "role": "Cash Receipts Accountant",
+                "start_date": "2012-01-01",
+                "end_date": "2013-01-01",
+                "location": "Zodiac, GM, US"
+            },
+            {
+                "role": "Accounts Payable Accountant",
+                "start_date": "2011-03-11",
+                "end_date": "2012-01-01",
+                "location": "Atnalta, GA, US",
+                "gap": "69 days"
+            },
+            {
+                "role": "Sales/Membership Representative",
+                "start_date": "2010-01-01",
+                "end_date": "2011-01-01",
+                "location": "Atnalta, GA, US"
+            }
+        ]
+    },
+    {
+        "name": "Peter Parker",
+        "work_experience": [
+            {
+                "role": "Staff Accountant",
+                "start_date": "2010-02-01",
+                "end_date": "2016-09-05",
+                "location": "Agrabah, GM, US"
+            },
+            {
+                "role": "C.O.A.'s",
+                "start_date": "2008-03-13",
+                "end_date": "2010-01-31",
+                "location": "Agrabah, GM, US"
+            }
+        ]
+    },
+    {
+        "name": "Walter White",
+        "work_experience": []
+    }
+]
